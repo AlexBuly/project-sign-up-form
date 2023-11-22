@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    font-weight: bold;
+}
+
+form,
+fieldset {
+    display: flex;
+    width: 100%;
+    gap: 5em;
+}
+
+
