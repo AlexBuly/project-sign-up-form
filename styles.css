@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    min-height: 100vh;
+}
+
 legend {
     font-weight: bold;
 }
@@ -14,12 +18,28 @@ legend {
 
 form,
 fieldset {
-    display: flex;
-    width: 90%;
-    justify-content: center;
-    gap: 5em;
-    flex-wrap: wrap;
     border: none;
+}
+
+.first,
+.second,
+.third {
+    display: flex;
+    gap: 5em;
+}
+
+@media screen and (max-width: 1000px) {
+    .first,
+    .second,
+    .third {
+        display: block;
+    }
+}
+
+
+fieldset {
+    padding: 1em;
+    background-color: white;
 }
 
 img {
@@ -34,6 +54,19 @@ img {
     display: flex;
     width: 100%;
     height: 100%;
+    background-color: lightgray;
 }
 
-
+button {
+    height: 2em;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 5%;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
