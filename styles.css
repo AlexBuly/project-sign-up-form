@@ -20,6 +20,12 @@ legend {
 
 .header {
     margin: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.want {
+    margin-top: 25px;
 }
 
 form,
@@ -32,6 +38,7 @@ fieldset {
 .third {
     display: flex;
     gap: 5em;
+    padding-bottom: 15px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -44,10 +51,23 @@ fieldset {
 
 
 fieldset {
+    position: relative;
     padding: 2em;
+    padding-top: 55px;
     background-color: white;
+    box-shadow: 4px 5px 6px #aaa
 }
 
+legend {
+    position: absolute;
+    top: 16px;
+    font-size: 18px;
+}
+
+label {
+    font-size: small;
+    letter-spacing: 1px;
+}
 img {
     width: 100%;
     height: 100%;
@@ -65,18 +85,55 @@ img {
     height: 100%;
     background-color: lightgray;
     max-width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 button {
-    height: 2em;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px 33px;
+    font-size: 15px;
+    font-weight: bold;
     margin-left: 5%;
     background-color: blue;
     color: white;
     border: 1px solid black;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+input {
+    padding: 2px;
+}
+
+input[type="password"]:focus {
+    outline: blue;
+    border: 1px solid blue;
+    box-shadow: 4px 5px 6px #aaa;
+    border-radius: 3px;
+    border-width: 2px;
+}
+
+input[type="text"]:focus {
+    outline: blue;
+    border: 1px solid blue;
+    box-shadow: 4px 5px 6px #aaa;
+    border-radius: 3px;
+    border-width: 2px;
+}
+
+input[type="email"]:focus {
+    outline: blue;
+    border: 1px solid blue;
+    box-shadow: 4px 5px 6px #aaa;
+    border-radius: 3px;
+    border-width: 2px;
+}
+
+input[type="tel"]:focus {
+    outline: blue;
+    border: 1px solid blue;
+    box-shadow: 4px 5px 6px #aaa;
+    border-radius: 3px;
+    border-width: 2px;
 }
