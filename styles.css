@@ -4,8 +4,14 @@
     padding: 0;
 }
 
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+
 body {
-    min-height: 100vh;
+    height: 100%;
 }
 
 legend {
@@ -38,12 +44,14 @@ fieldset {
 
 
 fieldset {
-    padding: 1em;
+    padding: 2em;
     background-color: white;
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .left-container {
@@ -52,9 +60,11 @@ img {
 
 .container {
     display: flex;
+    position: absolute;
     width: 100%;
     height: 100%;
     background-color: lightgray;
+    max-width: 100%;
 }
 
 button {
