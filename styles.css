@@ -114,13 +114,21 @@ button {
     font-size: 15px;
     font-weight: bold;
     margin-left: 5%;
-    background-color: blue;
+    background-color: darkred;
     color: white;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 7px;
     cursor: pointer;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+button:hover {
+    background-color: rgb(107, 0, 0)
+}
+
+button:active {
+    background-color: rgb(75, 0, 0)
 }
 
 input {
