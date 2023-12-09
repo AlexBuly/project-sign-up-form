@@ -43,6 +43,8 @@ fieldset {
     .second,
     .third {
         display: block;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .header {
@@ -79,7 +81,6 @@ label {
     display: flex;
     justify-content: center;
     padding-top: 120px;
-    
 }
 
 .logo {
