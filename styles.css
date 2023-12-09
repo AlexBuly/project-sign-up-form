@@ -133,6 +133,7 @@ button:active {
 
 input {
     padding: 2px;
+    border: 1px solid #e5e7eb;
 }
 
 input[type="password"]:focus {
@@ -140,7 +141,7 @@ input[type="password"]:focus {
     border: 1px solid blue;
     box-shadow: 4px 5px 6px #aaa;
     border-radius: 3px;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 input[type="text"]:focus {
@@ -148,7 +149,7 @@ input[type="text"]:focus {
     border: 1px solid blue;
     box-shadow: 4px 5px 6px #aaa;
     border-radius: 3px;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 input[type="email"]:focus {
@@ -156,7 +157,7 @@ input[type="email"]:focus {
     border: 1px solid blue;
     box-shadow: 4px 5px 6px #aaa;
     border-radius: 3px;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 input[type="tel"]:focus {
@@ -164,5 +165,5 @@ input[type="tel"]:focus {
     border: 1px solid blue;
     box-shadow: 4px 5px 6px #aaa;
     border-radius: 3px;
-    border-width: 2px;
+    border-width: 1px;
 }
