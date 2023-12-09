@@ -9,11 +9,6 @@ html {
     position: relative;
 }
 
-
-body {
-    height: 100%;
-}
-
 legend {
     font-weight: bold;
 }
@@ -51,7 +46,7 @@ fieldset {
     }
 
     .header {
-        margin: 2rem;
+        margin: 1rem;
     }
 }
 
@@ -166,4 +161,8 @@ input[type="tel"]:focus {
     box-shadow: 4px 5px 6px #aaa;
     border-radius: 3px;
     border-width: 1px;
+}
+
+.login {
+    margin-left: 5%;
 }
