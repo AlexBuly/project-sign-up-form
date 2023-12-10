@@ -71,7 +71,8 @@
                         </div>
                         <div class="com-pwd">
                             <label for="com-pwd">COMFIRM PASSWORD</label><br>
-                            <input type="password" name="com-pwd" id="com-pwd" required>
+                            <input type="password" name="com-pwd" id="com-pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                            title="Must cotain at least one number, one uppercase and one lowercase letter, and at least 8 or more characters"required>
                         </div>
                     </div>
                 </fieldset>
